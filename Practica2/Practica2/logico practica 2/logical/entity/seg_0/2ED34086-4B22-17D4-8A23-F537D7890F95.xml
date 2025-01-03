@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2ED34086-4B22-17D4-8A23-F537D7890F95" name="BIB_USUARIOS">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:31:46 UTC</createdTime>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<engineerTo>
+<item key="9C9D2412-4001-232A-7ADF-4F9D12A1FEC6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="usu_clave" id="9C36680D-7B81-724B-2DFC-7F0AE0981B37">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:32:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[clave primaria del usuario]]></commentInRDBMS>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<engineerTo>
+<item key="9C9D2412-4001-232A-7ADF-4F9D12A1FEC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usu_numbre" id="E654D532-BC26-ACCC-FE3E-4E6F42AC8EB5">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:33:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[nombre completo del usuario]]></commentInRDBMS>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<engineerTo>
+<item key="9C9D2412-4001-232A-7ADF-4F9D12A1FEC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usu_apellido" id="B16BB6F8-48CD-7558-35FB-F06D7AA33BF5">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:33:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[apellido completo del usuario]]></commentInRDBMS>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<engineerTo>
+<item key="9C9D2412-4001-232A-7ADF-4F9D12A1FEC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usu_mail" id="89A1354F-20FA-05C5-DBA0-D66CF866E7A5">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:34:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[correo electronico del usuario]]></commentInRDBMS>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<engineerTo>
+<item key="9C9D2412-4001-232A-7ADF-4F9D12A1FEC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usu_fecha" id="0238A776-3096-16C2-C782-328CDE2CE5E9">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:35:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha de registro del usuario, por defecto fecha actual]]></commentInRDBMS>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<engineerTo>
+<item key="9C9D2412-4001-232A-7ADF-4F9D12A1FEC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3392DF21-EB90-6BA6-AB20-AF7B5F049FEF" name="BIB_USUARIOS PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:33:08 UTC</createdTime>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<engineerTo>
+<item key="9C9D2412-4001-232A-7ADF-4F9D12A1FEC6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9C36680D-7B81-724B-2DFC-7F0AE0981B37</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

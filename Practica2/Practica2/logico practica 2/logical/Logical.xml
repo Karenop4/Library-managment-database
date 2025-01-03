@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="5DED4993-45CE-9696-2462-92EF97802EC9" mainViewID="FDBC1E3D-0EE1-774F-0CCC-8BAF34BFC341">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:00:06 UTC</createdTime>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

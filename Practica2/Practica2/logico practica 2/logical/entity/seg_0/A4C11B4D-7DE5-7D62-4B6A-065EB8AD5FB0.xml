@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A4C11B4D-7DE5-7D62-4B6A-065EB8AD5FB0" name="BIB_LIBROS">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:21:04 UTC</createdTime>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<engineerTo>
+<item key="9C9D2412-4001-232A-7ADF-4F9D12A1FEC6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="lib_clave" id="A9C1756F-EF52-67BD-BB93-D2D3C88151D0">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:26:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[clave primaria del libro]]></commentInRDBMS>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<engineerTo>
+<item key="9C9D2412-4001-232A-7ADF-4F9D12A1FEC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lib_titulo" id="F32805E7-BD5E-E950-5899-ED5BB11FF587">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:27:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[titulo del libro]]></commentInRDBMS>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<engineerTo>
+<item key="9C9D2412-4001-232A-7ADF-4F9D12A1FEC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="llib_fecha" id="D0C7AFF5-947B-498C-3F3E-9D8B4A061EFA">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:29:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha de publicacion del libro]]></commentInRDBMS>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<engineerTo>
+<item key="9C9D2412-4001-232A-7ADF-4F9D12A1FEC6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aut_clave" id="FA81E66F-849D-3D14-7F10-7FEC71813F07">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:30:04 UTC</createdTime>
+<generatorID>E333781B-89BB-04E6-3634-271487D63766</generatorID>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<engineerTo>
+<item key="9C9D2412-4001-232A-7ADF-4F9D12A1FEC6" value="true"/>
+</engineerTo>
+<referedAttribute>6049B0E9-BEF0-B7D4-9A76-8FDA1667C24B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8F076F1B-BE3C-2384-8D66-4F5122CDCFE7" name="BIB_LIBROS PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:27:22 UTC</createdTime>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<engineerTo>
+<item key="9C9D2412-4001-232A-7ADF-4F9D12A1FEC6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A9C1756F-EF52-67BD-BB93-D2D3C88151D0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

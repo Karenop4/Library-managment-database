@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E7FB984D-9004-229F-479D-1EA29399F389" name="BIB_AUTORES">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:06:27 UTC</createdTime>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<engineerTo>
+<item key="9C9D2412-4001-232A-7ADF-4F9D12A1FEC6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="aut_clave" id="6049B0E9-BEF0-B7D4-9A76-8FDA1667C24B">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:11:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[clave primaria del autor]]></commentInRDBMS>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<engineerTo>
+<item key="9C9D2412-4001-232A-7ADF-4F9D12A1FEC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aut_nombre" id="3DF1E9F6-DCF3-EE4F-2B60-4FCB14364511">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:16:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[nombre del autor]]></commentInRDBMS>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<engineerTo>
+<item key="9C9D2412-4001-232A-7ADF-4F9D12A1FEC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aut_apelido" id="410FA162-ADD2-A17C-2EAA-23D8B3D6D37B">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:16:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[apellido completo del autor]]></commentInRDBMS>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<engineerTo>
+<item key="9C9D2412-4001-232A-7ADF-4F9D12A1FEC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aut_nacionalidad" id="36215D93-3C82-C84A-28E8-49150CEA0B6F">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:17:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[nacionalidad del autor]]></commentInRDBMS>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<engineerTo>
+<item key="9C9D2412-4001-232A-7ADF-4F9D12A1FEC6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aut_fecha" id="BB35FF16-364B-C660-7CEA-CC4FD4CAF26F">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:20:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha de nacimiento del autor]]></commentInRDBMS>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<engineerTo>
+<item key="9C9D2412-4001-232A-7ADF-4F9D12A1FEC6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="367E79E2-B627-BAE7-E264-73DDA23F258D" name="BIB_AUTORES PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:12:23 UTC</createdTime>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<engineerTo>
+<item key="9C9D2412-4001-232A-7ADF-4F9D12A1FEC6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6049B0E9-BEF0-B7D4-9A76-8FDA1667C24B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

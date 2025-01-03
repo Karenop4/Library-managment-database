@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="logico practica 2" id="1E1049B3-129A-8976-C61D-CB81C736100D" version="3.5">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:00:06 UTC</createdTime>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1E1049B3-129A-8976-C61D-CB81C736100D</designId>
+</OSDM_Design>

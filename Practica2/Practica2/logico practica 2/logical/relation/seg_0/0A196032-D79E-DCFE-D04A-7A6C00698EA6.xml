@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="bib_usu_bib_pres_fk" directorySegmentName="seg_0" id="0A196032-D79E-DCFE-D04A-7A6C00698EA6">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-10 04:39:08 UTC</createdTime>
+<ownerDesignName>logico practica 2</ownerDesignName>
+<engineerTo>
+<item key="9C9D2412-4001-232A-7ADF-4F9D12A1FEC6" value="true"/>
+</engineerTo>
+<sourcePk>3392DF21-EB90-6BA6-AB20-AF7B5F049FEF</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>tener</nameOnSource>
+<nameOnTarget>pertenecer</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2ED34086-4B22-17D4-8A23-F537D7890F95</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2808C39B-2A33-2C57-9EBD-2A92418440BE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
